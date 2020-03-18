@@ -7,7 +7,6 @@ import subprocess
 
 version = '0.0.1'
 
-# Adapted from https://github.com/pytorch/pytorch
 cwd = os.path.dirname(os.path.abspath(__file__))
 if os.getenv('TTS_PYTORCH_BUILD_VERSION'):
     version = os.getenv('TTS_PYTORCH_BUILD_VERSION')
