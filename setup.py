@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 
 from setuptools import setup, find_packages
 import setuptools.command.develop
@@ -60,15 +59,15 @@ def create_readme_rst():
 setup(
     name='TTS',
     version=version,
-    url='https://github.com/mozilla/TTS',
+    url='https://github.com/',     #p
     description='Text to Speech with Deep Learning',
     license='MPL-2.0',
     package_dir={'': 'tts_namespace'},
     packages=find_packages('tts_namespace'),
     project_urls={
-        'Documentation': 'https://github.com/mozilla/TTS/wiki',
-        'Tracker': 'https://github.com/mozilla/TTS/issues',
-        'Repository': 'https://github.com/mozilla/TTS',
+        'Documentation': 'https://github.com/',  #p
+        'Tracker': 'https://github.com/',   #p
+        'Repository': 'https://github.com/',   #p
         'Discussions': 'https://discourse.mozilla.org/c/tts',
     },
     cmdclass={
